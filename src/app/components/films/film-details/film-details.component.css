@@ -1,0 +1,57 @@
+.container {
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.title, .subtitle{
+  color: rgb(170, 218, 73);
+}
+
+.white{
+  color: aliceblue;
+}
+
+.posterFilm {
+  width: 100%;
+  height: 50%;
+}
+
+.posterFilm img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.detailsFilm {
+  height: 50%;
+  display: flex;
+  padding: 30px;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  text-align: justify;
+}
+
+.detailsFilm div{
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+}
+
+.backBtn{
+    width: 30%;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    border: none;
+}
+
+@media (min-width: 750px) {
+  .backBtn{
+      width: 10%;
+  }
+}

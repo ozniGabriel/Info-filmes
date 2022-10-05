@@ -1,0 +1,124 @@
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background-color: rgb(26, 26, 42);
+    width: auto;
+    padding: 10px;
+    padding-bottom: 15px;
+    margin-top: 10px;
+}
+.search input{
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.search mat-icon{
+    color: aliceblue;
+    padding: 10px;
+    width: auto;
+    height: auto;
+    cursor: pointer;
+}
+
+ul{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+    list-style: none;
+}
+
+li{
+    border: 1px rgb(99, 121, 48) solid;
+    color: aliceblue;
+    width: 80%;
+    height: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+
+.container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+}
+.title{
+    color: rgb(170, 218, 73);
+}
+img{
+    position: relative;
+    height: auto;
+}
+
+.details{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.details button{
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    cursor: pointer;
+}
+
+@media (min-width: 600px){
+    li h3{
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 750px) {
+
+    li h3{
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 905px){
+    ul{
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 95vw;
+        margin: auto;
+    }
+
+    li{
+        width: 30%;
+        height: 350px;
+    }
+
+    .title, .details{
+        height: 25%;
+    }
+
+    .container{
+        height: 50%;
+    }
+
+    img{
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+
+    .details button{
+        width: 100px;
+        height: 40px;
+    }
+}

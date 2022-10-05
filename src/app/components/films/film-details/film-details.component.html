@@ -1,0 +1,25 @@
+<div class="container">
+    <div class="posterFilm">
+        <img src="{{film.image}}" alt="">
+    </div>
+    <div class="detailsFilm">
+        <h1 class="title">{{film.title}}</h1>
+        <h2 class="subtitle">Sinopse: 
+            <span class="white">{{film.sinopse}}</span>
+        </h2>
+        <div>
+            <h2 class="subtitle">Diretor: 
+                <span class="white">{{film.diretor}}</span>
+            </h2>
+            <h2 class="subtitle">Avaliação: 
+                <span class="white">{{film.rating}}</span>
+            </h2>
+            <h2 class="subtitle">Ano de lançamento: 
+                <span class="white">{{film.release}}</span>
+
+            </h2>
+        </div>
+    </div>
+    <button routerLink="/home" class="backBtn">Voltar</button>
+</div>
+    

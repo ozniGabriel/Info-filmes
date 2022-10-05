@@ -1,0 +1,18 @@
+<div class="search">
+    <input [(ngModel)]="filtro" placeholder="pesquisar">
+    <mat-icon (click)="search()">search</mat-icon>
+</div>
+
+<ul>
+    <li *ngFor="let filme of filmsFiltered">
+        <div class="title">
+            <h3>{{filme.title}}</h3>
+        </div>
+        <div class="container">
+            <img src="{{filme.image}}">
+        </div>
+        <div class="details">
+            <button routerLink="/details/{{filme.id}}">Ver Detalhes</button>
+        </div>
+    </li>
+</ul>
