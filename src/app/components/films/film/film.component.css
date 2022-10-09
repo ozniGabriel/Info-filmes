@@ -46,6 +46,10 @@ li{
     padding-top: 15px;
 }
 
+li:hover{
+    border: 1px orange solid;
+}
+
 
 .container{
     text-align: center;
@@ -75,6 +79,11 @@ img{
     border-radius: 8px;
     width: 100%;
     cursor: pointer;
+    font-weight: 600;
+}
+
+.details button:hover{
+    background-color: chartreuse
 }
 
 @media (min-width: 600px){

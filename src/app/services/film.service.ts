@@ -63,5 +63,41 @@ const FILMES = [
     diretor: "Peter Jackson",
     rating: 4.8,
     image: "../../assets/images/poster-films/filme05.jpg"
+  },
+  {
+    id: 5,
+    title: "O Hobbit: Uma Jornada Inesperada",
+    release: "14 de dezembro de 2012",
+    sinopse: "Como a maioria dos hobbits, Bilbo Bolseiro leva uma vida tranquila até o dia em que recebe uma missão do mago Gandalf. Acompanhado por um grupo de anões, ele parte numa jornada até a Montanha Solitária para libertar o Reino de Erebor do dragão Smaug.",
+    diretor: "",
+    rating: 4.8,
+    image: "../../assets/images/poster-films/filme06.jpg"
+  },
+  {
+    id: 6,
+    title: "O Hobbit: A Desolação de Smaug",
+    release: "13 de dezembro de 2013",
+    sinopse: "Ao lado de um grupo de anões e de Gandalf, Bilbo segue em direção à Montanha Solitária, onde deverá ajudar seus companheiros a retomar a Pedra de Arken. O problema é que o artefato está perdido em meio a um tesouro protegido pelo temido dragão Smaug.",
+    diretor: "Peter Jackson",
+    rating: 4.8,
+    image: "../../assets/images/poster-films/filme07.jpg"
+  },
+  {
+    id: 7,
+    title: "O Regresso",
+    release: "4 de fevereiro de 2016",
+    sinopse: "Após ser atacado por um urso, o caçador Hugh Glass é abandonado na floresta por seu companheiro John Fitzgerald. Apesar de muito ferido, Glass consegue sobreviver e vai em busca de vingança.",
+    diretor: "Alejandro González Iñárritu",
+    rating: 4.8,
+    image: "../../assets/images/poster-films/filme08.png"
+  },
+  {
+    id: 8,
+    title: "Fragmentado",
+    release: "17 de março de 2017",
+    sinopse: "Kevin possui 23 personalidades distintas e consegue alterná-las quimicamente em seu organismo apenas com a força do pensamento. Um dia, ele sequestra três adolescentes que encontra em um estacionamento. Vivendo em cativeiro, elas passam a conhecer as diferentes facetas de Kevin e precisam encontrar algum meio de escapar.",
+    diretor: "M. Night Shyamalan",
+    rating: 4.6,
+    image: "../../assets/images/poster-films/filme09.jpg"
   }
 ]
