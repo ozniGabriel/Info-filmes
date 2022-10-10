@@ -9,6 +9,7 @@
     padding-bottom: 15px;
     margin-top: 10px;
 }
+
 .search input{
     border: none;
     padding: 10px;
@@ -84,6 +85,13 @@ img{
 
 .details button:hover{
     background-color: chartreuse
+}
+
+.anim{
+    position: fixed;
+    top: 0%;
+    z-index: 1000;
+    height: 5px;
 }
 
 @media (min-width: 600px){

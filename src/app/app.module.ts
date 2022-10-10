@@ -5,11 +5,13 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import {MatMenuModule} from '@angular/material/menu';
 import { FormsModule } from '@angular/forms';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+
 import { AppComponent } from './app.component';
 import { NavComponent } from './components/shared/nav/nav.component';
 import { FilmComponent } from './components/films/film/film.component';
 import { FilmDetailsComponent } from './components/films/film-details/film-details.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { Page404Component } from './components/shared/page404/page404.component';
 import { FooterComponent } from './components/shared/footer/footer.component';
 import { InfoSiteComponent } from './components/info-site/info-site.component';

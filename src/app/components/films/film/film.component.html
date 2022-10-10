@@ -1,3 +1,5 @@
+<div class="anim" [@expandir]="animar ? 'expandido' : 'recolhido'"></div>
+
 <div class="search">
     <input [(ngModel)]="filtro" placeholder="pesquisar">
     <mat-icon (click)="search()">search</mat-icon>
@@ -12,7 +14,8 @@
             <img src="{{filme.image}}">
         </div>
         <div class="details">
-            <button routerLink="/details/{{filme.id}}">Ver Detalhes</button>
+            <button (click)="toggle(filme)">Ver Detalhes</button>
         </div>
     </li>
 </ul>
+

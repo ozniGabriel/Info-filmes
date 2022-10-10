@@ -1,3 +1,4 @@
+<div class="anim" [@desaparecer]="animar ? 'opaco' : 'visivel'">
 <div class="container">
     <div class="posterFilm">
         <img src="{{film.image}}" alt="">
@@ -20,6 +21,7 @@
             </h2>
         </div>
     </div>
-    <button routerLink="/home" class="backBtn">Voltar</button>
+    <button (click)="startAnimation()" class="backBtn">Voltar</button>
 </div>
-    
+
+</div>
